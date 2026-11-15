@@ -7,7 +7,7 @@ Authors@R: c(
     person("Jan", "Willamowius", email = "info@relaxedcommunications.com",
            role = c("aut", "cre")),
     person("Relaxed Communications GmbH", role = c("cph", "fnd")))
-Description: Client for the 'EAN-Search.org' barcode database PI
+Description: Client for the 'EAN-Search.org' barcode database API
     <https://www.ean-search.org/>. Look up product names and details for EAN,
     UPC and ISBN barcodes, search products by name, category or barcode prefix,
     map EANs to Amazon Standard Identification Numbers (ASIN) and Library of
@@ -16,9 +16,9 @@ Description: Client for the 'EAN-Search.org' barcode database PI
     An API access token is required, see
     <https://www.ean-search.org/ean-database-api.html>.
 License: MIT + file LICENSE
-URL: https://github.com/eansearch/r-ean-search,
+URL: https://github.com/eansearch/r-eansearch,
         https://www.ean-search.org/
-BugReports: https://github.com/eansearch/r-ean-search/issues
+BugReports: https://github.com/eansearch/r-eansearch/issues
 Depends: R (>= 3.6.0)
 Imports: curl, jsonlite
 Suggests: testthat (>= 3.1.7)
@@ -28,7 +28,3 @@ Language: en-US
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 NeedsCompilation: no
-Packaged: 2026-11-15 16:17:47 UTC; root
-Author: Jan Willamowius [aut, cre],
-  Relaxed Communications GmbH [cph, fnd]
-Maintainer: Jan Willamowius <info@relaxedcommunications.com>
