@@ -35,9 +35,9 @@ are retried up to 3 times.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/eansearch/r-ean-search}
+  \item \url{https://github.com/eansearch/r-eansearch}
   \item \url{https://www.ean-search.org/}
-  \item Report bugs at \url{https://github.com/eansearch/r-ean-search/issues}
+  \item Report bugs at \url{https://github.com/eansearch/r-eansearch/issues}
 }
 
 }
